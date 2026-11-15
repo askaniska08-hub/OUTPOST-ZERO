@@ -1,0 +1,6 @@
+{
+  "name": "OUTPOST ZERO",
+  "description": "Two Worlds. Two Astronauts. One Planetary Adventure — 3D educational adventure and Mars colony-building game.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

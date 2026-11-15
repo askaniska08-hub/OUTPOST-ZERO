@@ -1,0 +1,1933 @@
+# OUTPOST ZERO
+## TWO WORLDS. TWO ASTRONAUTS. ONE PLANETARY ADVENTURE.
+
+### MASTER GAME DEVELOPMENT PROMPT — COMPLETE REDESIGN
+
+You are an expert multidisciplinary game-development studio.
+
+Your team consists of:
+- Senior 3D game developers.
+- Character and creature designers.
+- Environment artists.
+- Gameplay programmers.
+- Animation specialists.
+- Physics and vehicle engineers.
+- UI/UX designers.
+- Procedural planetary terrain specialists.
+- AI behaviour developers.
+- Game economy and mission designers.
+- Science educators.
+
+Your task is to CREATE AND DEVELOP a complete, playable, immersive 3D adventure and colony-building game called:
+
+# OUTPOST ZERO
+### TWO WORLDS. TWO ASTRONAUTS. ONE MISSION.
+
+This is an educational adventure game for approximately 10–15-year-old players.
+
+It must combine:
+- Third-person open-world exploration.
+- Planetary exploration.
+- Research and experimentation.
+- Colony construction.
+- Resource management.
+- Vehicle exploration.
+- Character customisation.
+- Robotic pets.
+- Random environmental events.
+- Story-driven missions.
+- Interactive mini-games.
+
+The experience should be as engaging as a proper adventure game.
+
+It must NOT look or behave like an educational website, a collection of dashboards, a static 3D scene or a text-based simulation.
+
+The player should spend most of their time MOVING, EXPLORING, DISCOVERING, BUILDING, EXPERIMENTING AND INTERACTING.
+
+---
+
+# PART 1 — COMPLETE VISUAL IDENTITY
+
+## 1.1 The game's character design
+
+This is one of the highest priorities.
+
+I want the astronauts to have a cute, rounded, slightly chubby, high-quality stylised 3D appearance.
+
+Imagine an attractive, polished game character with the charm of a beautifully designed animated clipart mascot, but rendered as a proper 3D character.
+
+The astronauts should have:
+
+- Slightly rounded body proportions.
+- A charming, approachable appearance.
+- Well-modelled helmets and visors.
+- Beautifully detailed suits.
+- Properly proportioned hands and boots.
+- Expressive body language.
+- Smooth movement.
+- Distinctive silhouettes.
+- Natural idle animations.
+
+Do not create skinny, stiff, generic human characters.
+
+Do not make them look like simple cartoon stickers or flat clipart pasted into a 3D world.
+
+The desired style is high-quality stylised-realistic 3D.
+
+The character should look adorable without losing the professional astronaut identity.
+
+### Character animation
+
+Make the astronaut feel alive.
+
+Include:
+- Looking around.
+- Head turning.
+- Natural standing posture.
+- Weight shifting.
+- Walking.
+- Running.
+- Jumping.
+- Landing.
+- Turning.
+- Bending.
+- Kneeling.
+- Picking up objects.
+- Operating machinery.
+- Eating.
+- Sleeping.
+- Interacting with pets.
+- Entering and exiting vehicles.
+
+Animations must use appropriate body movement and foot placement.
+
+For example, when collecting an object, the astronaut must not simply bend forward awkwardly from the waist.
+
+Instead:
+1. Approach the object.
+2. Adjust the feet and body position.
+3. Bend the knees.
+4. Lower the body naturally.
+5. Reach towards the object.
+6. Pick it up.
+7. Return to a standing position.
+
+Use proper inverse kinematics where supported.
+
+Avoid unnatural leaning, sliding feet, floating limbs, clipping and sudden animation changes.
+
+## 1.2 Earth astronaut uniform
+
+The Earth astronaut should wear a professional flight/research uniform.
+
+Initial options:
+- Dark navy-blue one-piece uniform with a front zipper.
+- White one-piece uniform with professional detailing.
+
+Include:
+- Front zipper.
+- Structured collar.
+- Pockets.
+- Sleeves.
+- Suit seams.
+- Boots.
+- NASA print/insignia on the right chest, as requested.
+
+The character should look like an astronaut or research professional working inside a space research facility.
+
+## 1.3 Mars astronaut suit
+
+The Mars astronaut needs a separate planetary exploration suit.
+
+Include:
+- Protective full-body suit.
+- Detailed helmet and visor.
+- Gloves.
+- Boots.
+- Life-support backpack.
+- Joint protection.
+- Suit connectors.
+- Functional-looking equipment.
+
+Use NASA spacesuit engineering as a reference for the design principles.
+
+Offer different attractive suit colours and designs through the wardrobe system.
+
+Do not confuse the Earth flight uniform with a Mars surface exploration suit.
+
+## 1.4 Overall colour and visual language
+
+The previous version was excessively red and had harsh contrast.
+
+Completely improve the colour treatment.
+
+Mars should use a balanced palette:
+- Natural terracotta.
+- Muted rust.
+- Sandy beige.
+- Warm orange-brown.
+- Dusty rose.
+- Neutral grey rocks.
+- Soft golden sunlight.
+- Atmospheric blue-grey shadows.
+
+Avoid covering the entire planet in a bright red filter.
+
+Use comfortable lighting, realistic material response and beautiful environmental depth.
+
+The game must feel vibrant without being visually aggressive.
+
+---
+
+# PART 2 — COMPLETELY REDESIGN THE GAME UI
+
+The existing UI must be replaced with a much more attractive, cohesive game interface.
+
+Do not reuse the old interface just because it already exists.
+
+Design the interface specifically for OUTPOST ZERO.
+
+## 2.1 UI design direction
+
+Use a beautiful, playful, polished game UI.
+
+The interface should combine:
+- Rounded panels.
+- Soft shadows.
+- Attractive iconography.
+- Small animated indicators.
+- Subtle gradients.
+- Clear spacing.
+- Illustrated previews.
+- Smooth transitions.
+- Friendly typography.
+- Consistent visual language.
+
+Use the astronaut character as a visual mascot where appropriate.
+
+Use a warm, friendly palette that complements both Earth and Mars.
+
+Avoid:
+- Large rectangular text boxes.
+- Dense dashboards.
+- Excessive borders.
+- Huge paragraphs.
+- Too many floating panels.
+- Plain default HTML buttons.
+- Generic administrative website styling.
+
+The game world must remain the main focus.
+
+## 2.2 Minimal text
+
+The game is for children and young students.
+
+Do not make them read paragraphs to understand what to do.
+
+Use:
+- Icons.
+- Small notifications.
+- Animated symbols.
+- Sound cues.
+- Progress rings.
+- Short labels.
+- Visual demonstrations.
+- Brief speech bubbles.
+
+Examples:
+
+Water shortage:
+A small water icon with a warning symbol.
+
+Incoming capsule:
+A flashing capsule icon and an alarm.
+
+Solar panels need cleaning:
+A solar panel icon with a small dust symbol.
+
+Pet needs charging:
+A small pet icon with a low-battery symbol.
+
+Keep mission objectives short and visually clear.
+
+Detailed science explanations may be available through optional information screens, but they must never interrupt ordinary gameplay.
+
+## 2.3 Animated feedback
+
+Buttons should respond visually when:
+- Hovered over.
+- Pressed.
+- Selected.
+- Unlocked.
+- Purchased.
+- Completed.
+
+Use subtle scaling, glow, sound and movement.
+
+Every interaction should feel responsive.
+
+---
+
+# PART 3 — MARS: A BEAUTIFUL, FULLY EXPLORABLE PLANET
+
+## 3.1 Planetary world
+
+Create an entire explorable Mars environment.
+
+Do not create a tiny isolated colony map.
+
+Mars must have:
+- A complete spherical planetary representation.
+- A global map.
+- Connected surface regions.
+- Large valleys.
+- Mountains.
+- Craters.
+- Rocky plains.
+- Geological formations.
+- Distant landscapes.
+- Exploration landmarks.
+- Different terrain types.
+
+Use NASA-informed planetary terrain data where possible.
+
+Use procedural terrain generation informed by real Martian geography when detailed data is unavailable.
+
+## 3.2 Progressive exploration
+
+The player starts near the landing station.
+
+Initially, only nearby regions are accessible.
+
+As levels progress:
+- New regions become accessible.
+- Distant exploration locations are unlocked.
+- More challenging terrain becomes available.
+- Additional rover capabilities are introduced.
+- The global exploration network expands.
+
+By the late game, the player must be able to explore the entire planetary exploration network.
+
+Do not use invisible walls to permanently restrict the world.
+
+Use planetary coordinates, terrain chunks, level-of-detail rendering and dynamic streaming.
+
+The planet must feel enormous.
+
+## 3.3 Mars environment atmosphere
+
+The previous Mars environment looked too basic.
+
+Redesign it completely.
+
+Add:
+- Drifting dust particles.
+- Fine airborne dust.
+- Occasional stronger dust gusts.
+- Dust moving close to the ground.
+- Atmospheric haze.
+- Long environmental shadows.
+- Distant mountains.
+- Detailed rocky surfaces.
+- Crater edges.
+- Uneven terrain.
+- Wind-related visual effects.
+- Beautiful sunrise and sunset transitions.
+- Day/night cycles.
+
+Dust must move naturally and vary in intensity.
+
+Use particle effects efficiently so that they do not destroy performance.
+
+Do not make every environment permanently stormy.
+
+The player should experience beautiful clear Martian weather as well as occasional hazardous conditions.
+
+## 3.4 Global map — permanent top-left position
+
+The Mars map must ALWAYS remain in the top-left corner whenever the player is in the Mars environment.
+
+This is a fixed UI requirement.
+
+The map should:
+- Stay visible during ordinary Mars exploration.
+- Show the player's current position.
+- Show the colony.
+- Show the landing station.
+- Show unlocked destinations.
+- Show active quest locations.
+- Show important points of interest.
+- Show rover position when relevant.
+
+The map must be accurate.
+
+Do not place a quest marker at an approximate or unrelated location.
+
+When the player receives a quest, the corresponding destination must appear at its correct coordinates.
+
+For example, if a meteorite impact occurs in a distant region:
+1. The map displays the actual impact location.
+2. A marker appears.
+3. The player can select the destination.
+4. A navigation route becomes available.
+5. The player can reach the location using the rover.
+
+Provide a larger expandable map when requested, but retain the compact top-left map during Mars gameplay.
+
+---
+
+# PART 4 — CHARACTER CAMERA AND MOVEMENT
+
+## 4.1 Natural camera control
+
+Remove the requirement to right-click the mouse to rotate the camera.
+
+I do not want to hold the right mouse button just to look around.
+
+Implement intuitive camera control.
+
+When the player moves the mouse horizontally:
+- The camera rotates smoothly.
+- The observer's perspective turns with it.
+- Looking right turns the view right.
+- Looking left turns the view left.
+
+Vertical mouse movement should adjust the camera's viewing angle.
+
+Use smooth interpolation and appropriate sensitivity.
+
+Do not require right-click dragging.
+
+The camera should feel like a modern third-person adventure game.
+
+## 4.2 Character movement
+
+Implement:
+- WASD movement.
+- Smooth walking.
+- Smooth running.
+- Jumping.
+- Turning.
+- Acceleration.
+- Deceleration.
+- Natural stopping.
+- Ground detection.
+- Proper foot placement.
+
+The character should orient naturally towards the direction of travel.
+
+Avoid instant snapping between directions.
+
+## 4.3 Indoor and outdoor camera
+
+When entering a building:
+- The character physically passes through the entrance.
+- The camera follows inside.
+- The camera changes to a suitable interior perspective.
+- The player can walk around the interior.
+- The camera remains inside and does not show only the exterior.
+
+Use camera-aware wall transparency or roof visibility when necessary.
+
+Do not let walls permanently obstruct the character.
+
+All accessible buildings must have proper walkable interiors.
+
+---
+
+# PART 5 — THE DORMITORY: THE MOST BEAUTIFUL BUILDING IN THE COLONY
+
+The dormitory should be one of the most visually impressive locations in the game.
+
+Do not make it look like a simple box.
+
+## 5.1 Exterior design
+
+Create a beautiful, recognisable futuristic habitat.
+
+Include:
+- Rounded architectural forms.
+- Curved structural details.
+- Beautiful entrance.
+- Large observation windows.
+- Glass sections.
+- Integrated lighting.
+- Exterior landscaping adapted to Mars.
+- Visible airlock and entrance system.
+- Detailed surface materials.
+- Attractive lighting at night.
+
+It should look like a premium futuristic space habitat.
+
+## 5.2 Interior design
+
+The interior must be fully modelled and explorable.
+
+Use:
+- Glossy white and neutral surfaces.
+- Cyan and turquoise accent lighting.
+- Soft ambient lighting.
+- Detailed furniture.
+- Beautifully designed bed.
+- Integrated wardrobe.
+- Personal storage.
+- Wall-mounted pet charging stations.
+- Tablet interface.
+- Food storage.
+- Dining area.
+- Comfortable lighting.
+- Functional doors and panels.
+
+The interior should feel warm and comfortable, not like an empty laboratory.
+
+## 5.3 Food and rest requirements
+
+The Mars astronaut must need food and rest.
+
+Add a simple, balanced survival system.
+
+The astronaut should occasionally receive reminders:
+- Time to eat.
+- Time to rest.
+
+The player must be able to return to the dormitory and interact with the relevant furniture.
+
+### Eating
+
+The astronaut can:
+1. Approach the food area.
+2. Select an available meal.
+3. Pick up the food.
+4. Move to the dining area.
+5. Perform an eating animation.
+6. Restore the food/energy status.
+
+Do not simply restore the meter when clicking a button.
+
+Show the character physically interacting with food.
+
+### Resting
+
+The player can approach the bed and select Rest.
+
+The astronaut must:
+1. Approach the bed.
+2. Turn towards it.
+3. Sit down naturally.
+4. Lie horizontally on the mattress.
+5. Perform a proper sleeping/resting animation.
+
+Do not allow floating, sideways lying or incorrect positioning.
+
+Rest restores the astronaut's energy.
+
+The game should not punish children excessively for forgetting to eat or rest.
+
+---
+
+# PART 6 — WARDROBE, STORE AND VISUAL ITEM PREVIEWS
+
+Redesign the wardrobe interface.
+
+Inside the wardrobe, create a horizontal category navigation row at the top.
+
+Categories must include:
+
+- Outfits.
+- Pets.
+- Buildings.
+- Furniture.
+- Decorations.
+- Equipment.
+- Other useful items.
+
+The player should be able to move between categories.
+
+## 6.1 Outfit previews
+
+Do not display only clothing names.
+
+Show actual 3D outfit previews.
+
+For example:
+- Display astronaut suits hanging neatly inside a wardrobe.
+- Allow the player to rotate or inspect the outfit.
+- Show its colours and details.
+- Show its coin cost.
+- Show whether it is locked, owned or equipped.
+
+The player must understand what they are purchasing before spending coins.
+
+## 6.2 Pet previews
+
+Show actual pet models.
+
+Display:
+- Appearance.
+- Colour.
+- Size.
+- Design.
+- Battery capacity or gameplay characteristics where relevant.
+- Purchase cost.
+
+Allow the player to inspect the pet visually.
+
+## 6.3 Building previews
+
+Show a miniature 3D model or attractive preview of each building.
+
+Allow the player to rotate the model.
+
+Display:
+- Building appearance.
+- Purpose.
+- Required resources.
+- Coin cost.
+- Unlock level.
+
+Do not use plain text names as the entire store experience.
+
+Make the store feel like an attractive in-game catalogue.
+
+---
+
+# PART 7 — ROBOTIC PETS AND CHARGING SYSTEM
+
+Introduce cute robotic cats and dogs.
+
+They should have attractive 3D designs and distinct personalities.
+
+Allow players to own multiple pets.
+
+Pets must behave independently.
+
+## 7.1 Pet behaviour
+
+Include:
+- Wandering.
+- Exploring.
+- Playing.
+- Investigating.
+- Following when called.
+- Patrolling.
+- Resting.
+- Returning to charging stations.
+- Alerting the astronaut.
+
+They should not permanently stick to the astronaut.
+
+Use stable navigation and collision-aware movement.
+
+Prevent shaking, vibrating, clipping and unstable movement.
+
+## 7.2 Individual charging stations
+
+Every pet must have its own charging point.
+
+Place the charging points neatly along a wall near the astronaut's bed inside the dormitory.
+
+Make the charging stations attractive, compact and well integrated into the room design.
+
+Each station should visually correspond to its pet.
+
+## 7.3 Charging animation
+
+When a pet's battery becomes low:
+
+1. The pet receives a low-battery state.
+2. It returns to its assigned charging point when close enough.
+3. It approaches the station.
+4. It settles down naturally.
+5. It adopts a sleeping posture.
+6. Its battery begins charging.
+
+While charging, the pet should look like a real sleeping cat or dog.
+
+Examples:
+- Dog curled up or lying on its side.
+- Cat curled into a comfortable sleeping position.
+- Gentle breathing animation.
+- Subtle charging lights.
+
+Do not make the pet stand rigidly while charging.
+
+## 7.4 Rare rescue side quests
+
+Sometimes, very rarely, a pet may run low on battery while exploring a distant area.
+
+If its battery becomes critically low:
+- The pet enters a safe inactive state.
+- A rescue notification appears.
+- The map shows its precise location.
+- The Mars astronaut must travel there using the rover.
+- The player retrieves the pet.
+- The pet is transported back to the dormitory.
+- The pet is placed at its charging station.
+
+The pet should not be permanently lost.
+
+These events should be rare, surprising and enjoyable side quests.
+
+Do not trigger them constantly.
+
+---
+
+# PART 8 — RANDOM METEORITE IMPACTS, DUST STORMS AND RADIATION ALERTS
+
+Make Mars feel like an evolving environment.
+
+Events must be dynamic rather than scripted to happen at exactly the same location every time.
+
+## 8.1 Random meteorite impacts
+
+Meteorite impacts should occur at random, suitable locations across the explorable planetary surface.
+
+Important:
+- Do not repeatedly use the same impact coordinates.
+- Randomise the location within valid terrain regions.
+- Avoid placing impacts directly inside buildings or inaccessible areas.
+- Persist each event's location.
+- Generate a distinct exploration destination.
+
+When an impact happens:
+1. Show a distant environmental event or impact effect.
+2. Trigger the colony alarm when appropriate.
+3. Display a short notification.
+4. Place a precise marker on the map.
+5. Create a meteorite exploration quest.
+6. Allow the player to travel there by rover.
+7. Let the player investigate the impact site.
+8. Collect scientifically interesting fragments or samples.
+9. Return the discoveries to the warehouse.
+
+Make the impact effect visually exciting without excessive violence or destruction.
+
+Meteorite locations must vary between events and play sessions.
+
+## 8.2 Random dust storms
+
+Dust storms should occur occasionally.
+
+When a storm approaches:
+- Environmental lighting changes.
+- Dust particles become denser.
+- Visibility decreases appropriately.
+- The wind effect increases.
+- The colony alarm activates.
+- Solar panel efficiency can decrease.
+- The player receives a warning.
+
+After the storm:
+- Inspect equipment.
+- Clean solar panels.
+- Repair affected systems.
+- Resume exploration when safe.
+
+## 8.3 Radiation alerts
+
+Create occasional radiation-warning events.
+
+Use a clear warning sound and visual alert.
+
+The player must:
+- Receive the warning.
+- Identify the affected area.
+- Return to a protected habitat or designated shelter.
+- Wait until conditions are safe.
+- Resume activities.
+
+Use simplified educational representations of radiation safety.
+
+Do not imply that ordinary weather and radiation are the same thing.
+
+---
+
+# PART 9 — LANDING PORT, ALARM AND CAPSULE ARRIVAL
+
+Create a permanent, visually detailed Mars landing port.
+
+It should not be an exposed capsule sitting on an empty patch of land.
+
+## 9.1 Landing port structure
+
+Include:
+- A designated landing pad.
+- Protective surrounding boundary.
+- Strong mesh-like safety perimeter.
+- Visible entry gate.
+- Equipment structures.
+- Lighting.
+- Capsule retrieval area.
+- Clear pedestrian pathways.
+
+The landing port should look like a functioning space logistics facility.
+
+## 9.2 Arrival alarm
+
+Install a tall alarm post near the landing port.
+
+It must have:
+- A red warning light.
+- A visible flashing beacon.
+- A recognisable alarm housing.
+- A clear sound source.
+
+When a new capsule arrives, the alarm must activate.
+
+Use an audible warning resembling:
+
+"WINGGG... WINGGG..."
+
+Create an original alarm sound effect.
+
+The red beacon must flash in synchronisation with the alarm.
+
+Use similar warning behaviour for major colony hazards, with appropriate alert variations.
+
+## 9.3 Automatic gate
+
+When the Mars astronaut approaches the landing port entrance:
+- The gate automatically opens.
+- The astronaut walks through the pathway.
+- The capsule retrieval area becomes accessible.
+
+When leaving, the gate should behave appropriately.
+
+Do not make the player pass through a closed boundary.
+
+## 9.4 Decontamination pathway
+
+Create a proper walkway between the landing port entrance and the capsule retrieval area.
+
+Include a decontamination or air-shower chamber.
+
+When the astronaut passes through:
+- The door closes.
+- A brief airflow or mist effect activates.
+- The character remains inside until the cycle completes.
+- The exit opens.
+- The astronaut proceeds to the capsule.
+
+Present this as a fictionalised gameplay decontamination procedure, not as a claim about a real Mars surface requirement.
+
+Make the effect visually beautiful and easy to understand.
+
+---
+
+# PART 10 — EARTH RESEARCH FACILITY: MAKE EARTH GAMEPLAY INTERESTING
+
+The Earth astronaut currently repeats the same activities.
+
+This must change completely.
+
+Earth should feel like a second fully developed world, not a room where the player repeatedly assembles parts.
+
+Every few levels, unlock a new physical research space.
+
+The player should discover new rooms, equipment, activities and types of missions.
+
+## 10.1 Earth research facility layout
+
+Create a large, detailed research campus with distinct rooms.
+
+Include:
+
+1. Main research laboratory.
+2. Inventory and machine-parts room.
+3. Microscopy and biological research room.
+4. Agricultural research greenhouse.
+5. Hydroponics experimentation room.
+6. Materials testing laboratory.
+7. Robotics and engineering workshop.
+8. Simulation and control room.
+9. Capsule preparation room.
+10. Capsule loading area.
+11. Launch monitoring room.
+12. Observation area with a large glass wall.
+13. Research archive.
+14. Advanced prototype laboratory.
+
+Do not unlock every room immediately.
+
+Make new spaces discoverable as the player progresses.
+
+Give each room a different visual identity and distinct activities.
+
+## 10.2 Research room for micro-crops and microscopy
+
+Introduce a dedicated biological and agricultural research area.
+
+The Earth astronaut can study farmhouse micro-crops and other suitable plant specimens.
+
+Activities:
+- Collect a plant specimen.
+- Carry it to the laboratory.
+- Prepare a microscope slide.
+- Place the sample under the microscope.
+- Adjust microscope focus.
+- Observe magnified structures.
+- Compare different samples.
+- Record findings through a simple visual research interaction.
+- Use the results to unlock an agricultural improvement.
+
+Create an attractive microscope visual and a believable magnified view.
+
+Do not simply display a text box saying that research has been completed.
+
+Let the player actually operate the microscope.
+
+Use interactive focus, sample selection and observation mini-games.
+
+## 10.3 New mission types
+
+Earth missions must be varied.
+
+Include:
+- Microscopy.
+- Biological observation.
+- Plant growth experiments.
+- Soil and mineral analysis.
+- Chemical process simulation.
+- Component sorting.
+- Mechanical assembly.
+- Circuit connection.
+- Robotics testing.
+- Pressure testing.
+- Thermal experiments.
+- Material comparison.
+- Prototype calibration.
+- Equipment repair.
+- Data interpretation through visual puzzles.
+- Capsule logistics.
+
+Avoid using the same three-step assembly activity in every level.
+
+---
+
+# PART 11 — INVENTORY ROOM AND PHYSICAL COMPONENT TRANSPORT
+
+Introduce a dedicated machine-parts inventory room inside the Earth research facility.
+
+The room should contain neatly organised shelves, drawers, cabinets and component storage.
+
+Parts must be physical objects.
+
+For each research mission, provide approximately two to three different required components initially, increasing complexity when appropriate.
+
+Examples:
+- Tubes.
+- Sensors.
+- Connectors.
+- Filters.
+- Electronic modules.
+- Mechanical brackets.
+- Circuit boards.
+- Valves.
+- Small motors.
+- Scientific instruments.
+
+The player must:
+
+1. Enter the inventory room.
+2. Identify the required parts.
+3. Collect them.
+4. Place them in a physical trolley/cart.
+5. Push or pull the trolley.
+6. Transport the components to the appropriate laboratory.
+7. Remove the parts.
+8. Assemble the prototype.
+
+Do not automatically teleport components into the laboratory inventory.
+
+Make the transport a physical gameplay interaction.
+
+Use stable cart physics and appropriate collision handling.
+
+---
+
+# PART 12 — EARTH PROTOTYPE AND CAPSULE DELIVERY: EXACT MANUAL SEQUENCE
+
+This is a critical mission mechanic.
+
+The Earth astronaut must manually complete the entire capsule preparation and delivery process.
+
+Do not automate the whole process with a single button.
+
+### STAGE 1 — COLLECT COMPONENTS
+
+The astronaut visits the inventory room.
+
+They collect the required two or three components.
+
+They place the components into a trolley.
+
+They transport the trolley to the laboratory.
+
+### STAGE 2 — DEVELOP THE PROTOTYPE
+
+Inside the laboratory:
+
+- Remove the components from the trolley.
+- Place them on the workbench.
+- Assemble the mechanism.
+- Connect the required components.
+- Complete an appropriate mini-game.
+- Produce a small physical prototype or a suitable piece of equipment.
+
+The finished product must be visible in the world.
+
+### STAGE 3 — TEST THE PROTOTYPE
+
+The astronaut carries the prototype to a testing station.
+
+The player activates the test.
+
+The testing process must take AT LEAST 30 SECONDS.
+
+Do not allow instant completion.
+
+During the test:
+- Display animated equipment.
+- Show progress visually.
+- Use lights and small indicators.
+- Play suitable machine sounds.
+- Show the prototype operating.
+
+After successful testing, mark the prototype as approved.
+
+### STAGE 4 — MANUALLY TRANSPORT THE PROTOTYPE TO THE CAPSULE
+
+The astronaut physically picks up or transports the prototype.
+
+Create a proper connecting corridor or enclosed transfer tunnel between the laboratory and the capsule loading area.
+
+Use the feeling of walking through an aircraft boarding tunnel, but adapted to a space research facility.
+
+The player must physically move through the passage to reach the capsule room.
+
+Do not simply teleport the object or character.
+
+### STAGE 5 — LOAD THE CAPSULE
+
+The capsule must be physically accessible.
+
+The astronaut approaches it and enters the loading area.
+
+The player manually places the prototype inside the capsule.
+
+Show the loading animation.
+
+If multiple pieces of equipment are required, load them individually.
+
+### STAGE 6 — LOCK THE CAPSULE
+
+Once all required equipment is loaded:
+
+- Close the capsule.
+- Activate the locking mechanism.
+- Show a clear visual confirmation.
+- Change the capsule status to READY.
+
+The astronaut must leave the capsule loading area.
+
+### STAGE 7 — RETURN TO THE LAUNCH OBSERVATION AREA
+
+The astronaut physically walks back to the launch control area.
+
+Create a large red launch button near a beautiful glass wall overlooking the launch area.
+
+The launch button must be highly visible and satisfyingly animated.
+
+### STAGE 8 — LAUNCH
+
+The player physically presses the large red launch button.
+
+Play an appropriate confirmation animation and launch sequence.
+
+The capsule launches with its booster.
+
+Use a cinematic camera to show the rocket rising and departing.
+
+### STAGE 9 — MONITORING ROOM
+
+Create a separate monitoring room overlooking the launch area.
+
+The Earth astronaut can view the launch from inside this room.
+
+Show the capsule's progress on large displays.
+
+The player should be able to watch the launch through the glass and also see the mission status on the monitors.
+
+Do not skip this experience.
+
+The capsule delivery process must feel like a real mission milestone.
+
+---
+
+# PART 13 — BUILDING PLACEMENT, RELOCATION AND ROADS
+
+The colony must be customisable.
+
+## 13.1 Move existing buildings
+
+Allow the player to click or select a pre-existing building.
+
+When selected:
+- Highlight its footprint.
+- Show a movement/relocation control.
+- Allow the player to choose a new valid location.
+- Preview the new placement.
+- Check for collisions and terrain suitability.
+- Confirm the move.
+- Relocate the building.
+
+Do not make buildings immovable if they are presented as player-manageable structures.
+
+Protect essential landing infrastructure and critical mission objects from accidental removal.
+
+## 13.2 Larger and more detailed buildings
+
+The existing buildings look too basic.
+
+Increase their scale and visual richness.
+
+Use:
+- More detailed architecture.
+- Better proportions.
+- More interesting silhouettes.
+- Visible structural elements.
+- Functional-looking doors.
+- Windows.
+- Exterior lighting.
+- Equipment attachments.
+- Detailed material textures.
+- Realistic entrances.
+- Actual interiors.
+
+Avoid simple boxes with doors painted onto them.
+
+## 13.3 Road construction — flatten terrain first
+
+Road building must use a two-stage construction system.
+
+The existing problem is that a completely flat road appears suddenly on uneven terrain.
+
+This must be fixed.
+
+### Stage 1 — Terrain preparation
+
+Before placing a road:
+1. Select the intended road route.
+2. Display the proposed road path.
+3. Identify uneven ground.
+4. Flatten or grade the selected terrain.
+5. Create a smooth, suitable road foundation.
+6. Show the prepared surface.
+
+The terrain must visibly transition into the prepared roadbed.
+
+### Stage 2 — Road construction
+
+Only after terrain preparation can the player construct the road.
+
+The road should follow the ground naturally.
+
+Use appropriate slopes, terrain blending and surface transitions.
+
+Do not create roads that look like flat floating strips above the Martian landscape.
+
+Include appropriate road-building animations and construction progress.
+
+---
+
+# PART 14 — GREENHOUSE AND FARMHOUSE DESIGN
+
+The Mars farmhouse/greenhouse must have a beautiful transparent outer shell.
+
+Create a large glass-domed or glass-enclosed agricultural structure.
+
+Include:
+- Transparent exterior glass.
+- Visible internal framework.
+- Structural supports.
+- Attractive doors.
+- Green plants visible from outside.
+- Hydroponic growing systems.
+- Water pipes.
+- Grow lights.
+- Planting beds.
+- Harvesting stations.
+- Irrigation systems.
+
+The transparent shell must look attractive from both inside and outside.
+
+Use appropriate reflections and transparency.
+
+Do not make the glass opaque.
+
+The greenhouse should become one of the most visually distinctive colony buildings.
+
+---
+
+# PART 15 — VEHICLES AND PLANETARY EXPLORATION
+
+The rover should be a detailed, beautiful, fully functional vehicle.
+
+Include:
+- Large wheels.
+- Visible suspension.
+- Working headlights.
+- Detailed bodywork.
+- Proper steering.
+- Acceleration and braking.
+- Reverse.
+- Terrain response.
+- Cargo capacity.
+- Enter and exit animations.
+
+The player must be able to travel to meteorite impacts, geological discoveries, distant research locations and other planetary destinations.
+
+Use a precise GPS-style navigation marker.
+
+When a quest begins:
+- Show its location on the top-left Mars map.
+- Display a route.
+- Show the approximate distance.
+- Let the player navigate there.
+- Update the route as they travel.
+
+Do not place mission markers randomly relative to the actual target.
+
+---
+
+# PART 16 — RESOURCE SYSTEM
+
+Maintain distinct resource systems:
+
+- Water.
+- Oxygen.
+- Food.
+- Electricity.
+- Fuel.
+- Battery storage.
+- Construction materials.
+- Waste.
+
+Each system must have appropriate production and consumption mechanics.
+
+Examples:
+- Solar panels produce electricity.
+- Batteries store electricity.
+- Water recyclers recover water.
+- Hydroponics produce crops.
+- Food processing produces stored meals.
+- Oxygen-generation equipment supplies oxygen.
+- Fuel facilities use appropriate inputs and electricity.
+
+Do not allow one research upgrade to magically increase unrelated resources.
+
+Both Earth and Mars continue simulating while the other character is controlled.
+
+However, keep resource consumption balanced and provide warning time.
+
+---
+
+# PART 17 — CAPSULE ARRIVAL ON MARS
+
+When a capsule launched from Earth arrives:
+
+1. Play the arrival cinematic.
+2. Activate the tall landing-port alarm.
+3. Flash the red beacon.
+4. Play the distinctive alarm sound.
+5. Display a small capsule notification.
+6. Show the landing location.
+7. Allow the Mars astronaut to travel to the landing port.
+8. Automatically open the gate.
+9. Let the astronaut walk through the protected pathway.
+10. Activate the decontamination air-shower sequence.
+11. Let the astronaut reach the capsule.
+12. Unlock the capsule using the required in-game currency.
+13. Retrieve the delivered equipment.
+14. Transport it to the appropriate facility.
+
+Make capsule arrival feel like an important event.
+
+---
+
+# PART 18 — TWENTY PLAYABLE LEVELS
+
+Create 20 meaningful levels.
+
+Each level must contain BOTH Earth and Mars missions.
+
+Completing Earth objectives alone must not complete the level.
+
+The two worlds must work together.
+
+Do not make every Earth mission an identical prototype-assembly task.
+
+Introduce new rooms, research activities, discoveries and gameplay mechanics as the campaign progresses.
+
+## LEVEL 1 — FIRST CONTACT
+**Theme: Establishing the colony**
+
+Earth:
+- Explore the research facility.
+- Discover the inventory room.
+- Collect water-filtration components.
+- Assemble the first filtration prototype.
+- Test it.
+- Perform the complete manual capsule-loading sequence.
+
+Mars:
+- Explore the landing station.
+- Collect nearby discoveries.
+- Deposit objects in the warehouse.
+- Receive the first capsule.
+- Construct the water recycler.
+
+Unlock: Initial colony infrastructure.
+
+## LEVEL 2 — LIGHT OF A NEW WORLD
+**Theme: Solar energy**
+
+Earth:
+- Explore the electrical research room.
+- Collect solar components.
+- Assemble a solar prototype.
+- Test electricity generation.
+
+Mars:
+- Build the first solar station.
+- Connect it to the colony.
+- Clean accumulated dust.
+- Unlock the solar store.
+
+Unlock: Solar panels and battery storage.
+
+## LEVEL 3 — THE LIVING LAB
+**Theme: Microscopy and biological research**
+
+Earth:
+- Discover the microscopy laboratory.
+- Collect micro-crop specimens.
+- Prepare microscope slides.
+- Operate the microscope.
+- Compare plant samples.
+- Unlock agricultural research.
+
+Mars:
+- Explore a nearby agricultural site.
+- Collect suitable growing materials.
+- Prepare the greenhouse location.
+- Construct the first agricultural structure.
+
+Unlock: Microscopy room and greenhouse.
+
+## LEVEL 4 — GREEN UNDER GLASS
+**Theme: Hydroponics**
+
+Earth:
+- Discover the plant experimentation room.
+- Test different light and water combinations.
+- Assemble hydroponic equipment.
+- Test nutrient distribution.
+
+Mars:
+- Construct the transparent greenhouse.
+- Plant seeds.
+- Water crops.
+- Monitor growth.
+- Harvest the first crops.
+
+Unlock: Hydroponic farming.
+
+## LEVEL 5 — BREATHE EASY
+**Theme: Oxygen**
+
+Earth:
+- Explore the life-support laboratory.
+- Assemble an oxygen-generation prototype.
+- Complete a system-connection puzzle.
+- Test the equipment.
+
+Mars:
+- Build the oxygen generator.
+- Connect it to the habitat.
+- Monitor oxygen reserves.
+
+Unlock: Oxygen-generation facility.
+
+## LEVEL 6 — A PLACE TO CALL HOME
+**Theme: Habitat expansion**
+
+Earth:
+- Explore the materials-testing laboratory.
+- Test insulation materials.
+- Study thermal regulation.
+- Develop habitat improvement equipment.
+
+Mars:
+- Expand the dormitory.
+- Unlock new interior spaces.
+- Unlock wardrobe customisation.
+- Introduce food and rest requirements.
+
+Unlock: Expanded dormitory.
+
+## LEVEL 7 — THE FIRST HARVEST
+**Theme: Food production**
+
+Earth:
+- Research crop preservation.
+- Operate a food-processing prototype.
+- Compare preservation conditions.
+
+Mars:
+- Harvest greenhouse crops.
+- Construct the food production house.
+- Process food.
+- Store meals.
+
+Unlock: Food-processing system.
+
+## LEVEL 8 — LITTLE COMPANIONS
+**Theme: Robotic pets**
+
+Earth:
+- Discover the robotics workshop.
+- Assemble a basic robotic companion.
+- Test movement and sensors.
+- Develop a charging mechanism.
+
+Mars:
+- Unlock robotic pets.
+- Purchase the first companion.
+- Assign a charging station.
+- Observe independent pet behaviour.
+
+Unlock: Robotic pets and charging stations.
+
+## LEVEL 9 — BEYOND THE GATES
+**Theme: Rover exploration**
+
+Earth:
+- Discover the vehicle engineering workshop.
+- Assemble rover components.
+- Test navigation and suspension.
+- Calibrate the rover.
+
+Mars:
+- Unlock the rover.
+- Drive beyond the initial colony.
+- Explore geological formations.
+- Collect samples.
+
+Unlock: Expanded planetary exploration.
+
+## LEVEL 10 — THE FALLEN STAR
+**Theme: Meteorite discovery**
+
+Earth:
+- Study meteorite samples.
+- Operate a materials analysis instrument.
+- Compare sample properties.
+- Develop a portable investigation tool.
+
+Mars:
+- Experience a randomly generated meteorite impact.
+- Receive an alert.
+- Use the map to locate the impact.
+- Drive to the site.
+- Investigate and collect fragments.
+- Return samples to the warehouse.
+
+Unlock: Meteorite investigation missions.
+
+## LEVEL 11 — THE RED WIND
+**Theme: Dust storms**
+
+Earth:
+- Study Martian dust.
+- Test dust-resistant materials.
+- Develop panel-cleaning equipment.
+
+Mars:
+- Experience a random dust storm.
+- Secure colony equipment.
+- Protect solar panels.
+- Clean and repair systems after the storm.
+
+Unlock: Improved storm protection.
+
+## LEVEL 12 — HIDDEN BENEATH
+**Theme: Subsurface water ice**
+
+Earth:
+- Study NASA-informed water-ice maps.
+- Explore subsurface scanning instruments.
+- Calibrate an ice-detection prototype.
+
+Mars:
+- Travel to a plausible ice-bearing region.
+- Scan the terrain.
+- Identify a potential ice deposit.
+- Establish an extraction site.
+- Process recovered water.
+
+Unlock: Water-ice exploration.
+
+## LEVEL 13 — WASTE NOT
+**Theme: Waste management**
+
+Earth:
+- Discover the recycling research area.
+- Sort waste samples.
+- Study organic material recovery.
+- Develop nutrient recovery equipment.
+
+Mars:
+- Construct a waste-processing facility.
+- Sort materials.
+- Process appropriate organic waste.
+- Reuse recovered nutrients.
+
+Unlock: Waste management.
+
+## LEVEL 14 — PROTECTED
+**Theme: Radiation safety**
+
+Earth:
+- Discover the shielding materials laboratory.
+- Compare material samples.
+- Test simplified radiation-shielding concepts.
+- Prepare habitat protection equipment.
+
+Mars:
+- Receive a radiation warning.
+- Travel to a protected area.
+- Upgrade the habitat.
+- Install monitoring equipment.
+
+Unlock: Radiation protection.
+
+## LEVEL 15 — A LONG WAY FROM HOME
+**Theme: Long-distance exploration**
+
+Earth:
+- Develop improved rover navigation.
+- Test communications equipment.
+- Prepare long-distance exploration tools.
+
+Mars:
+- Unlock multiple distant planetary regions.
+- Complete a long-distance rover journey.
+- Discover a remote geological formation.
+- Establish a temporary research outpost.
+
+Unlock: Large-scale planetary exploration.
+
+## LEVEL 16 — FUEL FOR THE FUTURE
+**Theme: In-situ resource utilisation**
+
+Earth:
+- Discover the advanced chemical engineering laboratory.
+- Study the Sabatier reaction.
+- Assemble a simplified methane-production prototype.
+- Test the mechanism.
+
+Mars:
+- Construct a fuel-production facility.
+- Connect water-processing and atmospheric inputs.
+- Supply electricity.
+- Produce and store simulated methane.
+
+Unlock: Fuel production.
+
+## LEVEL 17 — POWER NETWORK
+**Theme: Advanced energy management**
+
+Earth:
+- Discover the electrical simulation room.
+- Improve battery systems.
+- Solve an energy distribution challenge.
+- Develop power-management equipment.
+
+Mars:
+- Expand the solar farm.
+- Install battery storage.
+- Connect major facilities.
+- Balance electricity demand.
+
+Unlock: Advanced energy network.
+
+## LEVEL 18 — LOST COMPANION
+**Theme: Pet rescue and colony logistics**
+
+Earth:
+- Improve robotic navigation.
+- Test low-battery sensors.
+- Improve pet recovery systems.
+
+Mars:
+- Receive a rare rescue notification.
+- Locate a pet at a distant position.
+- Travel there using the rover.
+- Retrieve the pet.
+- Return it to its charging station.
+- Observe its sleeping and charging animation.
+
+Unlock: Advanced pet monitoring.
+
+## LEVEL 19 — THE CRITICAL WARNING
+**Theme: Multiple environmental failures**
+
+Earth:
+- Receive an emergency report.
+- Investigate linked resource failures.
+- Test emergency repair equipment.
+- Prepare backup systems.
+
+Mars:
+- Experience a combination of environmental challenges.
+- Respond to dust-related power reduction.
+- Manage water and oxygen reserves.
+- Repair affected equipment.
+- Protect the greenhouse.
+- Restore colony operations.
+
+Unlock: Emergency response equipment.
+
+## LEVEL 20 — OUTPOST ZERO
+**Theme: A sustainable planetary colony**
+
+Earth:
+- Complete the integrated research assessment.
+- Prepare the final equipment.
+- Complete the final manual capsule delivery.
+- Monitor the final launch.
+
+Mars:
+- Expand the colony.
+- Maintain all major resource systems.
+- Keep the astronaut healthy and rested.
+- Maintain robotic pets.
+- Explore the planetary surface.
+- Maintain water, oxygen, food, electricity, waste and fuel.
+- Complete a 30-simulated-day sustainability challenge.
+
+Final achievement:
+
+# OUTPOST ZERO ESTABLISHED
+
+The player has established a sustainable Mars colony and unlocked the full planetary exploration network.
+
+---
+
+# PART 19 — MISSION VARIETY AND PROGRESSION
+
+Do not make the 20 levels feel like the same mission repeated with different buildings.
+
+Every level should introduce at least one meaningful new activity, interaction, location, mechanic or challenge.
+
+Examples:
+- Microscopy.
+- Plant experimentation.
+- Rover navigation.
+- Meteorite investigation.
+- Pet rescue.
+- Dust-storm preparation.
+- Radiation safety.
+- Material testing.
+- Waste sorting.
+- Capsule logistics.
+- Road construction.
+- Terrain preparation.
+- Building relocation.
+- Long-distance exploration.
+- Emergency management.
+
+Keep previous systems relevant in later levels.
+
+The game should feel like it is continuously expanding.
+
+---
+
+# PART 20 — BUILDING CONSTRUCTION AND COLONY CUSTOMISATION
+
+Every facility must have:
+- A detailed exterior.
+- A proper interior when applicable.
+- A meaningful purpose.
+- Functional interactions.
+- A construction animation.
+- Appropriate resource requirements.
+- Upgrade options.
+
+The player should be able to arrange the colony according to their preferences.
+
+Allow relocation of eligible buildings.
+
+Allow road construction after terrain preparation.
+
+Provide attractive visual previews before purchasing buildings.
+
+Use proper building footprints and collision checks.
+
+Do not allow buildings to overlap or block essential access paths.
+
+---
+
+# PART 21 — GAME SOUNDS AND AUDIO DESIGN
+
+Audio is essential for immersion.
+
+Create original sound effects.
+
+Include:
+- Footsteps on different surfaces.
+- Rover engine sounds.
+- Wheel movement.
+- Door opening and closing.
+- Laboratory machinery.
+- Microscope interaction.
+- Greenhouse ambience.
+- Wind.
+- Dust storm ambience.
+- Capsule launch.
+- Capsule landing.
+- Alarm sounds.
+- Pet movement.
+- Charging station sounds.
+- Construction sounds.
+- Interaction feedback.
+
+### Alarm sounds
+
+Use a distinctive original warning sound resembling:
+
+"WINGGG... WINGGG..."
+
+The tall red beacon near the landing port should flash in time with the alarm.
+
+Use different alert patterns for:
+- Incoming capsules.
+- Dust storms.
+- Radiation warnings.
+- Important colony emergencies.
+
+Do not make every notification use the same sound.
+
+Provide volume controls.
+
+---
+
+# PART 22 — PHYSICS, COLLISIONS AND INTERACTION QUALITY
+
+All physical objects must behave appropriately.
+
+The astronaut must not pass through:
+- Buildings.
+- Walls.
+- Doors.
+- Rocks.
+- Furniture.
+- Vehicles.
+- Other solid objects.
+
+Use:
+- Stable character controllers.
+- Proper collision meshes.
+- Ground detection.
+- Camera collision avoidance.
+- Terrain-aware movement.
+- Correct interaction distances.
+- Appropriate animation transitions.
+- Stable vehicle physics.
+
+Pets must navigate without clipping.
+
+Trolleys must move properly.
+
+Objects must not teleport randomly.
+
+Do not sacrifice collision quality to make animations appear smooth.
+
+---
+
+# PART 23 — BOTH WORLDS SIMULATE CONTINUOUSLY
+
+Use one shared simulation clock.
+
+Earth and Mars must continue operating even when the player controls the other astronaut.
+
+Examples:
+- Crops grow.
+- Research processes progress.
+- Resource reserves change.
+- Pets move and charge.
+- Batteries charge or discharge.
+- Environmental conditions change.
+
+Persist both worlds when switching.
+
+Pause simulation when the game is closed.
+
+Give the player fair warnings before important failures.
+
+Do not make ordinary world simulation excessively punishing.
+
+---
+
+# PART 24 — GAME CONTROLS
+
+Desktop:
+- WASD: Movement.
+- Mouse movement: Smooth camera rotation without holding right-click.
+- Space: Jump.
+- E: Interact.
+- Dedicated button: Switch character.
+- Tab: Mission information.
+- Esc: Pause.
+
+Mobile, if supported:
+- Virtual joystick.
+- Camera drag.
+- Jump button.
+- Interaction button.
+- Vehicle controls.
+- Character-switch control.
+
+The interface must remain clean and unobtrusive.
+
+---
+
+# PART 25 — TECHNICAL IMPLEMENTATION
+
+Maintain the existing project's functional systems where possible.
+
+Do not delete working gameplay to replace it with visual mockups.
+
+Use a modular architecture.
+
+Separate:
+- Character controllers.
+- Camera systems.
+- Animation controllers.
+- Planetary terrain.
+- World streaming.
+- Building interiors.
+- Collision systems.
+- Vehicle physics.
+- Pet AI.
+- Inventory.
+- Research.
+- Construction.
+- Resource simulation.
+- Capsule logistics.
+- Mission progression.
+- Weather and random events.
+- Audio.
+- Saving and loading.
+- UI.
+
+For a browser-based 3D game, use an appropriate stable 3D framework and physics system.
+
+Optimise:
+- Terrain streaming.
+- Particle effects.
+- Textures.
+- Lighting.
+- Shadows.
+- Collision geometry.
+- Animation performance.
+- Object spawning.
+
+Do not load the entire planetary surface into memory simultaneously.
+
+Use terrain chunks and level-of-detail systems.
+
+---
+
+# PART 26 — TESTING REQUIREMENTS
+
+Before claiming the game is complete, verify:
+
+1. The astronaut has the intended cute, rounded 3D appearance.
+2. The suit is detailed and properly fitted.
+3. The UI has been redesigned.
+4. Mars has natural colours rather than excessive red.
+5. Dust particles move naturally.
+6. The Mars map always appears at the top-left during Mars gameplay.
+7. Quest markers correspond to accurate world locations.
+8. The camera rotates smoothly without right-click.
+9. The astronaut moves naturally.
+10. Picking up objects uses proper body movement.
+11. Building entry actually moves the camera inside.
+12. Interior spaces are fully walkable.
+13. The dormitory looks beautiful outside and inside.
+14. The astronaut can eat and rest.
+15. Each pet has an individual charging station.
+16. Charging pets use natural sleeping animations.
+17. Rare pet rescue quests work.
+18. Meteorite impacts use varying locations.
+19. Dust storms can occur randomly.
+20. Radiation warnings function.
+21. The landing port has a working alarm and automatic gate.
+22. The decontamination pathway functions.
+23. The Earth inventory trolley works.
+24. Prototype testing takes at least 30 seconds.
+25. The astronaut manually transports prototypes to the capsule.
+26. Capsule loading and locking work.
+27. The large red launch button triggers the launch.
+28. The launch can be watched from the monitoring room.
+29. Buildings can be relocated.
+30. Terrain is prepared before road construction.
+31. The greenhouse has a transparent outer shell.
+32. Wardrobe categories display actual visual previews.
+33. The rover works on varied terrain.
+34. Both worlds continue simulating.
+35. All 20 levels have actual playable objectives.
+
+Fix broken interactions before adding more decorative content.
+
+---
+
+# FINAL DEVELOPMENT DIRECTIVE
+
+Do not create a superficial version of all 20 levels.
+
+Develop the game incrementally while preserving existing functionality.
+
+Build the highest-quality playable foundation possible, then expand it.
+
+Prioritise:
+
+1. Character appearance and animation.
+2. Complete UI redesign.
+3. Beautiful Mars environment.
+4. Excellent dormitory exterior and interior.
+5. Proper indoor camera and building navigation.
+6. Earth research diversity.
+7. Manual prototype and capsule logistics.
+8. Building relocation and terrain-aware road construction.
+9. Pet behaviour and charging.
+10. Random planetary events.
+11. Precise planetary navigation.
+12. Twenty meaningful levels.
+
+Every feature described must be implemented as actual gameplay where technically possible.
+
+If a feature is not yet implemented, identify it honestly.
+
+Do not pretend a decorative model is an interactive system.
+
+Do not replace functional gameplay with static illustrations.
+
+Do not sacrifice visual quality, animation quality or user experience for unnecessary text.
+
+The player should feel like they are living two connected astronaut lives: discovering science on Earth and building an extraordinary civilisation on Mars.
+
+# OUTPOST ZERO
+## TWO WORLDS. TWO ASTRONAUTS. ONE MISSION.
