@@ -10,7 +10,7 @@
 
 **20-level expedition | Earth and Mars | Android and web source**
 
-[Download Android APK](https://github.com/askaniska08-hub/OUTPOST-ZERO/releases/download/v1.0.0-beta.1/OUTPOST.ZERO.apk) · [Latest Release](https://github.com/askaniska08-hub/OUTPOST-ZERO/releases/latest) · [Project Presentation](docs/OUTPOST-ZERO-Presentation.pptx)
+[Download Android APK](https://github.com/askaniska08-hub/OUTPOST-ZERO/releases/download/v1.0.0-beta.1/OUTPOST.ZERO.apk) · [Latest Release](https://github.com/askaniska08-hub/OUTPOST-ZERO/releases/latest) · [Project Presentation](OUTPOST ZERO PPT.pptx)
 
 </div>
 
@@ -157,7 +157,7 @@ Build the Android project from Android Studio. The source repository may not inc
 
 The seven-slide presentation covers the challenge, solution, two-astronaut workflow, key features, prototype screenshots, technical stack and educational impact.
 
-**[Open or download OUTPOST ZERO PPT](docs/OUTPOST-ZERO-Presentation.pptx)**
+**[Open or download OUTPOST ZERO PPT](OUTPOST ZERO PPT.pptx)**
 
 ## Educational Impact
 
@@ -186,5 +186,7 @@ We acknowledge NASA's publicly accessible educational resources, imagery and sci
 ## License and Disclaimer
 
 Source code license: [Apache License 2.0](LICENSE), as included in this repository. Third-party libraries and external media retain their own terms and attributions.
+
+**OUTPOST ZERO is an independent student project. It is not an official NASA product and is not endorsed by or affiliated with NASA.**
 
 **OUTPOST ZERO is an independent student project. It is not an official NASA product and is not endorsed by or affiliated with NASA.**
