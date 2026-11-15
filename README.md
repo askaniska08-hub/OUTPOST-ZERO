@@ -1,5 +1,3 @@
-![OUTPOST ZERO game title screen](assets/outpost-zero-banner.jpeg)
-
 <div align="center">
 
 # OUTPOST ZERO
